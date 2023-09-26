@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: #10ac84;
+}
+.main_header .heading {
+  letter-spacing: 0.2rem;
+  color: white;
+}
+.main_header .heading:hover {
+  color: #2939cd;
+  text-transform: capitalize;
+}
+.main_header .heading::after {
+  content: " scss project";
+}
+.main_header .paira {
+  letter-spacing: 0.3rem;
+  color: white;
+}
+.main_header .paira:hover {
+  color: aqua;
+}/*# sourceMappingURL=main.css.map */
